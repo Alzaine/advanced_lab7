@@ -2,7 +2,7 @@ name: build and deploy
 
 on:
   push:
-    branches: [ master ]   # 注意这里是 master，有的仓库是 main
+    branches: [ prod ]   # 注意这里是 master，有的仓库是 main
 
 jobs:
   deploy-app:
